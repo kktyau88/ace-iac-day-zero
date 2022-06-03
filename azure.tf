@@ -83,7 +83,8 @@ resource "azurerm_linux_virtual_machine" "azure_spoke2_vm" {
   resource_group_name             = module.azure_spoke_2.vpc.resource_group
   location                        = var.azure_spoke2_region
   size                            = var.azure_test_instance_size
-  admin_username                  = "ubuntu"
+  #admin_username                  = "ubuntu"
+  admin_username                  = "userA"
   #admin_password                  = var.ace_password
   admin_password                  = "P@ssw0rd"  
   disable_password_authentication = false
