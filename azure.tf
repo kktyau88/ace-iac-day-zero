@@ -84,9 +84,9 @@ resource "azurerm_linux_virtual_machine" "azure_spoke2_vm" {
   location                        = var.azure_spoke2_region
   size                            = var.azure_test_instance_size
   #admin_username                  = "ubuntu"
-  admin_username                  = "userA"
+  ##admin_username                  = "userA"
   #admin_password                  = var.ace_password
-  admin_password                  = "P@ssw0rd"  
+  ##admin_password                  = "P@ssw0rd"  
   disable_password_authentication = false
   network_interface_ids = [
     azurerm_network_interface.main.id,
