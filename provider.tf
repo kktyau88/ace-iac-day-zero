@@ -1,6 +1,9 @@
+## modify on Jun 09
+
 provider "aviatrix" {
   controller_ip = var.controller_ip
-  username      = var.username
+  #username      = var.username
+  username      = var.user-name
   password      = var.password
 }
 
