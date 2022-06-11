@@ -3,6 +3,8 @@ variable "username" {
 }
 
 variable "password" {
+  #add it on Jun 11
+  default = "t?]79YdMH\c8]v)5"
 }
 
 variable "controller_ip" {
